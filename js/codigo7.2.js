@@ -1,0 +1,52 @@
+//EFECTO 23----
+
+//Al escribir las cajas cambian de color
+$(function(){
+	$("#nombre").keydown(function(){
+		$("#nombre").css({"background-color":"gold"});
+	});
+	$("#nombre").keyup(function(){
+		$("#nombre").css({"background-color":"white"});
+	});
+});
+$(function(){
+	$("#email").keydown(function(){
+		$("#email").css({"background-color":"darkorchid"});
+	});
+	$("#email").keyup(function(){
+		$("#email").css({"background-color":"white"});
+	});
+});
+$(function(){
+	$("#mensaje").keydown(function(){
+		$("#mensaje").css({"background-color":"greenyellow"});
+	});
+	$("#mensaje").keyup(function(){
+		$("#mensaje").css({"background-color":"white"});
+	});
+});
+
+$(function(){
+	$("#nombre1").keydown(function(){
+		$("#nombre1").css({"background-color":"gold"});
+	});
+	$("#nombre1").keyup(function(){
+		$("#nombre1").css({"background-color":"white"});
+	});
+});
+$(function(){
+	$("#email1").keydown(function(){
+		$("#email1").css({"background-color":"darkorchid"});
+	});
+	$("#email1").keyup(function(){
+		$("#email1").css({"background-color":"white"});
+	});
+});
+$(function(){
+	$("#mensaje1").keydown(function(){
+		$("#mensaje1").css({"background-color":"greenyellow"});
+	});
+	$("#mensaje1").keyup(function(){
+		$("#mensaje1").css({"background-color":"white"});
+	});
+});

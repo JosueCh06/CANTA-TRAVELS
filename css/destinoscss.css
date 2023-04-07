@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+    padding: 0;
+    background-image: url("../Imágenes/fondo1.jpg");
+     background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+	
+}
+header{
+	background-color: orange;
+	height: 150px;
+}
+.menu ul{
+	display: inline-block;
+	width: 100%;
+	border: 0px solid
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+.menu ul li a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	padding: 15px;
+	transition: all ease 0.3s;
+	border: 0px solid;
+	font-weight:bold;
+	margin-right: 60px;
+	
+	
+
+}
+.menu ul li a:hover{
+	background-color: khaki;
+	color: maroon !important;
+}
+.menu ul li.sub ul{
+	background-color: lemonchiffon;
+	position: absolute;
+	left: 0;
+	padding-left: 0;
+	min-width: 200px;
+	display: none;
+
+}
+.menu ul li.sub ul li a{
+	color: black;
+	width: 110px;
+
+}
+.menu ul li.sub:hover ul{
+	display: block;
+	color:tan;
+}
+
+#Principal{
+	width: 1000px;
+	height: 100%;
+	border: 0px solid black;
+	margin: auto;
+	background:white;
+}
+
+.arriba ul li a{
+	text-decoration: none;
+	color: black;
+	font-weight:bold;
+	
+}
+.sub1{
+	width: 850px;
+	height: 500px;overflow: hidden;
+	border: 3px dashed darkcyan;
+	background: paleturquoise;
+	margin: 75px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+
+}
+.sub1 section{
+	width: 550px;
+	margin-top: 15px;
+	border: 0px solid red;
+	float: right;
+	margin-right: 20px;
+}
+
+.sub1 aside{
+width: 240px;
+border: 0px solid red;
+margin-left: 25px;
+margin-top: 15px;
+}
+.sub1 aside img{
+	width: 230px;
+	height: 140px;
+	border-radius: 15px;
+}
+
+.sub1 section article p{
+	text-align: justify;
+	
+}
+.sub2{
+	width: 850px;
+	height: 820px;overflow: hidden;
+	border: 3px dashed orange;
+	background:palegoldenrod;
+	margin: 75px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.sub2 section{
+	width: 550px;
+	margin-top: 15px;
+	border: 0px solid red;
+	float: right;
+	margin-right: 20px;
+}
+
+.sub2 aside{
+width: 240px;
+border: 0px solid red;
+margin-left: 25px;
+margin-top: 15px;
+
+
+}
+.sub2 aside img{
+	width: 230px;
+	height: 140px;
+	border-radius: 15px;
+}
+
+.sub2 section article p{
+	text-align: justify;
+	
+}
+.sub3{
+	width: 850px;
+	height: 500px;overflow: hidden;
+	border: 3px dashed darkcyan;
+	background: paleturquoise;
+	margin: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.sub3 section{
+	width: 550px;
+	margin-top: 15px;
+	border: 0px solid red;
+	float: right;
+	margin-right: 20px;
+}
+
+.sub3 aside{
+width: 240px;
+border: 0px solid red;
+margin-left: 25px;
+margin-top: 15px;
+
+}
+.sub3 aside img{
+	width: 230px;
+	height: 140px;
+	border-radius: 15px;
+}
+
+.sub3 section article p{
+	text-align: justify;
+	
+}
+.abajo{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	background: silver;
+	font-weight:bold;
+	border-radius: 15px;
+	
+}
+footer{
+	width: 1000px;
+	height: 86px;
+	border: 0px solid;
+	margin-top:15px;
+	background: orange;
+}
+
+.redes{
+	text-align: center;
+	font-weight:bold;
+}
+h1{
+	font-family: gabriola;
+	font-size: 30pt;
+	border: 0px solid;
+}

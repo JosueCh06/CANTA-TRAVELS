@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contáctanos</title>
+	<link rel="stylesheet" type="text/css" href="css/contactanoscss.css">
+</head>
+<body>
+
+	<div id="Principal">
+		<header class="menu">
+			<center>
+				<img src="Imágenes/travel.jpg" width="100" height="75" title="Canta te encanta">
+			</center>
+		<ul>
+		<li><a href="contactanos.html">Contáctanos</a></li>
+		
+		<li class="sub">
+			<a href="">Paquetes</a>
+		<ul>
+			<li><a href="paquete1.html">paquete 1</a></li>
+			<li><a href="paquete2.html">paquete 2</a></li>
+			<li><a href="paquete3.html">paquete 3</a></li>
+		</ul>
+
+		</li>
+		<li><a href="destinos.html">destinos</a></li>
+		<li><a href="nosotros.html">Conócenos</a></li>
+		<li><a href="inicio.html">Inicio</a></li>
+	</ul>
+	</header>
+	<section id="bloque">
+		       <center> <h3>Centro de contacto: (01)511-6986</h3></center>
+		<section class="uno">
+			<center><h2>Escríbenos:</h2></center>
+   <form action="contact.php" method="post">
+	<label for="nombre">Nombre Completo:</label>
+	 <input id="nombre" type="text" name="nombre"  placeholder="Nombres y Apellidos" maxlength="30">
+	 <label for="email">Email:</label>
+	 <input id="email" type="text" name="email" placeholder="ejemplo@correo.com" maxlength="30">
+	 <label for="mensaje">Mensaje:</label>
+	 <textarea id="mensaje" name="mensaje" placeholder="Mensaje" maxlength="80"></textarea>
+	 <input id="submit" type="submit" name="submit" value="Enviar" onclick="return validar_Mensaje()"/>
+	</form>
+        </section>
+		<section class="uno">
+			<center><h2>Libro de Reclamaciones</h2></center>
+   <form action="contact.php" method="post" >
+	<label for="nombre">Nombre Completo:</label>
+	 <input id="nombre1" type="text" name="nombre"  placeholder="Nombres y Apellidos" maxlength="30">
+	 <label for="email">Email:</label>
+	 <input id="email1" type="text" name="email" placeholder="ejemplo@correo.com" maxlength="30">
+	 <label for="mensaje">Reclamo:</label>
+	 <textarea id="mensaje1" name="mensaje" placeholder="Reclamo" maxlength="80"></textarea>
+	 <input id="submit" type="submit" name="submit" value="Enviar" onclick="return validar_Reclamo()"/>
+	</form>
+		</section>	
+	</section>
+	<center><h3>Creadores del proyecto</h3></center>
+	<section class="final">
+		<center>
+		<img src="Imágenes/Final1.png">
+		</center>
+	</section>
+	<footer>
+     
+		<p class="redes">Síguenos en nuestras redes</p>
+		<center>
+		<img src="Imágenes/youtube.png" width="50" height="40">
+		<img src="Imágenes/facebook.png" width="65" height="40">
+		<img src="Imágenes/twitter.png" width="40" height="40">
+	</center>	
+	</footer>
+	</div>
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/codigo7.2.js"></script>
+<script src="js/codigo7.1.js"></script>
+<script src="js/codigo7.js"></script>
+</html>

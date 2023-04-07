@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-image: url("../Imágenes/fondo4.jpg");
+}
+header{
+	background-color: orange;
+	height: 150px;
+}
+.menu ul{
+	display: inline-block;
+	width: 100%;
+	border: 0px solid
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+.menu ul li a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	padding: 15px;
+	transition: all ease 0.3s;
+	border: 0px solid;
+	font-weight:bold;
+	margin-right: 60px;
+	
+	
+
+}
+.menu ul li a:hover{
+	background-color: khaki;
+	color: maroon !important;
+}
+.menu ul li.sub ul{
+	background-color: lemonchiffon;
+	position: absolute;
+	left: 0;
+	padding-left: 0;
+	min-width: 220px;
+	display: none;
+
+}
+.menu ul li.sub ul li a{
+	color: black;
+	width: 160px;
+
+}
+.menu ul li.sub:hover ul{
+	display: block;
+	color:tan;
+}
+
+#Principal{
+	width: 1000px;
+	height: 1050px;
+	border: 0px solid black;
+	margin: auto;
+
+	background:white;
+} 
+h2{
+	margin-left: 10px;
+	font-family: "gabriola"
+}    
+p{
+	margin-left: 5px;
+}
+#bloque{
+	width: 900px;
+	height: 490px; overflow: hidden;
+	border: 3px dashed darkcyan;
+	margin-top: 10px;
+	margin: 50px;
+	background-color: skyblue;
+
+}
+.uno{
+	width: 400px;
+	height: 410px;
+	border: 0px solid;
+	float: left;
+	background: paleturquoise;
+	margin-left: 25px; 
+	margin-right: 13px;
+}
+footer{
+	width: 1000px;
+	height: 86px;
+	border: 0px solid;
+	margin-top:15px;
+	background: orange;
+}
+.redes{
+	text-align: center;
+	font-weight:bold;
+}
+
+label {
+    display:block;
+    margin-top:15px;
+    letter-spacing:1px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-weight:bold;
+}
+.formulario {
+    display:block;
+    margin:0 auto;
+    width:510px;
+    color: #666666;
+    font-family:Arial;
+}
+form {
+    margin:0 auto;
+    width:400px;
+    border: 0px solid;
+} 
+input, textarea {
+    width:350px;
+    height:25px;
+    background:#98efeb;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:10px;
+    color:black;
+    margin-left: 10px;
+} 
+textarea {
+    height:125px;
+}
+#submit {
+    background:#f2291f;
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:10px;
+    margin-left: 150px;
+    cursor:pointer;
+}
+
+.final img{
+	width: 170px;
+	height: 180px;
+	border: 3px solid black;
+
+}

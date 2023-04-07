@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+    padding: 0;
+    background-image: url("../Imágenes/fondo2.jpg");
+     background-size: cover;
+    background-position: center;
+    align-items: flex-start;
+    display: flex;
+
+}
+header{
+	background-color: orange;
+	height: 150px;
+}
+#Principal{
+	width: 1000px;
+	border: 0px solid black;
+	margin: auto;
+	background-color:white;
+	height: 1175px;
+}
+.menu ul{
+	display: inline-block;
+	width: 100%;
+	border: 0px solid
+}
+.menu ul li{
+	display: inline-block;
+	position: relative;
+	float: right;
+}
+.menu ul li a{
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	padding: 15px;
+	transition: all ease 0.3s;
+	border: 0px solid;
+	font-weight:bold;
+	margin-right: 60px;
+	
+	
+
+}
+.menu ul li a:hover{
+	background-color: khaki;
+	color: maroon !important;
+}
+.menu ul li.sub ul{
+	background-color: lemonchiffon;
+	position: absolute;
+	left: 0;
+	padding-left: 0;
+	min-width: 220px;
+	display: none;
+
+}
+.menu ul li.sub ul li a{
+	color: black;
+	width: 160px;
+
+}
+.menu ul li.sub:hover ul{
+	display: block;
+	color:tan;
+}
+.prin{
+	width: 880px;
+	height: 890px;overflow: hidden;
+	border: 3px dashed darkcyan;
+	background: white;
+	margin: 60px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.prin aside.aside1{
+	width: 320px;
+	height: 570px;
+	border: 0px solid;
+	margin-right: 40px;
+	float: right;
+	margin-top: 10px;
+	position: relative;
+	right: -1000px;
+}
+.prin aside.aside2{
+	width: 450px;
+	height: 580px;
+	border: 0px solid;
+	margin-left: 40px;
+	margin-top: 30px;
+	position: relative;
+	left: -1000px;
+
+}
+.prin section#seccion{
+	width: 800px;
+	height: 200px;
+	border: 0px solid;
+	margin-left: 40px;
+	margin-top: 10px;
+	position: relative;
+	top: 150px;
+}
+#seccion article.info {
+	width: 265px;
+	height: 180px;
+	border: 1px solid steelblue;
+	float: left;
+	margin-left: 10px;
+	background: paleturquoise;
+}
+#seccion article.info1{
+	width: 220px;
+	height: 180px;
+	border: 1px solid orange;
+	float: left;
+	margin-left: 22px;
+	background: lemonchiffon;
+}
+#seccion article.reco{
+	width: 255px;
+	height: 180px;
+	border: 1px solid steelblue;
+	float: left;
+	margin-left: 22px;
+	background: paleturquoise;
+}
+.aside2 article.partida{
+	width: 430px;
+	height: 140px;
+	border: 1px solid indigo;
+	margin: 10px;
+	margin-top: 0px;
+	background: gainsboro;
+}
+.aside2 article.iten{
+	width: 430px;
+	height: 420px;
+	border: 1px solid orange;
+	margin: 10px;
+	margin-top: 0px;
+	background: lemonchiffon;
+}
+.aside1 img{
+	width: 300px;
+	height: 145px;
+	border: 0px solid;
+	margin-left: 10px;
+}
+footer{
+	width: 1000px;
+	height: 86px;
+	border: 0px solid;
+	margin-top:15px;
+	background: orange;
+}
+.redes{
+	text-align: center;
+	font-weight:bold;
+}
+h2{
+	font-family: gabriola;
+	font-size: 20pt;
+}
+.registro img{
+	width: 300px;
+	height: 350px;
+}
+h3{
+	background: yellow;
+}
